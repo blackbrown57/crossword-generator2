@@ -4,7 +4,7 @@ Crossword generator to create web based crosswords. Primarily for CTF uses.
 Generates crosswords and exports them to a javascript grid and html clues. Requires Python 3.
 
 # Thanks
-to Daniel Daniel Nögel for the code this was based on
+to Daniel Daniel Nögel for the code this was based on.
 See https://github.com/dnoegel/crossword-generator for his code.
 
 
