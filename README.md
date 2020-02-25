@@ -24,6 +24,6 @@ Place the editted crossword.html, crossword.js and md5.js files on your website.
 8. Edit crossword.js, again, replace the alue of the variable "answerPrefix" with the six characters.
 9. Reload the page with the altered crossword.js Verify if you change a character at the end of a word and then change it back, that you get a "You Win!!" message.
 10. Edit crossword.js again, and replace the grid with the answers with the grid without the answers.
-11.Reload the page and do final testing.
+11. Reload the page and do final testing.
 
 Note: The fine print at the bottom of the generated HTML has a link to a pdf version of the empty crossword. You can either eliminate that text, or create your own pdf.
