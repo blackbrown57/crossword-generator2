@@ -1,10 +1,10 @@
 # crossword-generator2
-Crossword generator to create web based crosswords. Primarily for CTF uses.
+Crossword generator to create web based crosswords. Primarily for CTF uses. The crossword is embedded into an interactive web page. It requires only a "dumb" web server to serve the page. 
 
 Generates crosswords and exports them to a javascript grid and html clues. Requires Python 3.
 
 # Thanks
-to Daniel Daniel Nögel for the code this was based on.
+to Daniel Nögel for the code this was based on.
 See https://github.com/dnoegel/crossword-generator for his code.
 
 
