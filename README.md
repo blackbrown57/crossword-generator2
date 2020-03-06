@@ -7,6 +7,8 @@ Generates crosswords and exports them to a javascript grid and html clues. Requi
 to Daniel Nögel for the code this was based on.
 See https://github.com/dnoegel/crossword-generator for his code.
 
+to the people at Squarectf (https://squarectf.com) for the javascript this is based on.
+
 
 # License
 GPLv3
