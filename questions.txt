@@ -1,0 +1,36 @@
+[options]
+question first = False
+#  solution = Security First
+
+[questions]
+ten = number of dimensions according to Kraang
+Shredder = Good for security; Bad for turtles
+Spike = aka MrBlack
+rocksteady = 24X7X365, always up
+slash = useful/essential for forced browsing
+ratking = These bow to him: Poison Ivy, BlackShades, DarkComet
+mondogecko = Worldly escapee from insurance ads
+insiderthreat = Raph in 2017-15
+Michelangelo = Weeks before Secret of the Ooze debuts, this namesake terrorizes DOS users
+Slammer = Famous virus and Leo figure
+ooze = the cause
+iloveyou = Guzman and Romone's script for April and Donnie, and Raph, and RockSteady, and Casey Jones, and ...
+keno =  Game the pizza boy probably won big
+April = I thought I heard a TMNT character in Avatar. Who was it?
+creep = Perhaps inspired by the first computer virus
+turtlesintime = It's a movie, It's in the arcade, on SNES, NES, XBox 360, PS3, the only game your puzzle author was ever good at
+eastmanandlaird = creators
+splinter =  The truth hurts
+portal = logon or move between dimensions
+BeBop = 87F2941495F
+santino = TMNT has a kernel too
+april = character with fear of flying mammals
+popcorn = TMNT 2nd favorite food
+footclan = faceless fodder
+mazesandmutants = plot ripping off Jumanji
+crossover = You can't use a patch cable for Power Rangers, Batman, or Ghostbuster
+outoftheshadows = next reboot
+tubes = TMNT and the Internet have this in common
+chaos = What Volume 14 and Agent 99 have in common - sort of
+foot = 30.48
+mutation = Simile and ooze share this property

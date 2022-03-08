@@ -1,0 +1,165 @@
+
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+  body {
+    font-family:  serif
+  }
+  h1 {
+    margin-bottom: 0em;
+    margin-top: 1em;
+  }
+  div {
+    clear: both;
+  }
+  .clues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10pt;
+    width: 48%;
+  }
+  .vertical_line {
+    border-left: 1px solid black;
+    width: 10px;
+    margin-top: 3em;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .grid {
+    background-color: #eee;
+    padding: 10px;
+    display: inline;  
+    flex-direction: column;
+    float: left;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .cell {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .cell input {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    font-family: "CMU Serif";
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .notempty {
+    background-color: #fff;
+    border: 1px solid black;
+    margin: -1px -1px 0px 0px;
+  }
+  .hex {
+    vertical-align: top;
+    align-self: flex-start;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    font-size: 8pt;
+  }
+  .empty {
+    padding-left: 1px;
+    padding-top: 1px;
+  }
+  p {
+    font-size: 4pt;
+    text-align: center;
+  }
+  .web {
+    text-align: center;
+	font-size: 8pt;
+  }
+  .print {
+    text-align: center;
+    display: none;
+  }
+  @media print {
+    .print {
+      display: block !important;
+    }
+    .web {
+      display: none !important;
+    }
+  }
+  a {
+    color: black;
+    text-decoration-skip: ink;
+  }
+  </style>
+</head>
+<body>
+<h1>2018 CTF Crossword</h1>
+<p />
+<script src="./md5.js"></script>
+<script src="./crossword.js"></script>
+
+<br /><br />
+<div id="flag"></div>
+<div class="clues">
+
+<!–– Place the HTML clues here  -->
+
+
+<div> <h1>Across:</h1>
+	<div> <label for ='0'> 0. Tool to exfiltrate Windows data, passwords, hashes and more </div>
+	<div> <label for ='2'> 2. Security certification </div>
+	<div> <label for ='3'> 3. SAMY, Flame, Melissa, Morris, Michelangelo, iloveyou </div>
+	<div> <label for ='5'> 5. CSG code security scanning tool </div>
+	<div> <label for ='8'> 8. Controls user access to AWS services </div>
+	<div> <label for ='b'> b. South African privacy law </div>
+	<div> <label for ='c'> c. Cache, search, beanstalk, loadbalancer, computing, etc. in AWS </div>
+	<div> <label for ='d'> d. Country to first use a cyberweapon against another country </div>
+	<div> <label for ='e'> e. Vector for Target hack </div>
+	<div> <label for ='f'> f. unauthorized data transfer </div>
+	<div> <label for ='12'> 12. Amazon cold storage </div>
+	<div> <label for ='15'> 15. Agency to report breaches to in AUS </div>
+	<div> <label for ='16'> 16. Replace sensitive data with a substitute </div>
+	<div> <label for ='17'> 17. Euro privacy law </div>
+	<div> <label for ='18'> 18. Relaxes same origin policy. Easy to misconfigure and create vulnerabilities </div>
+	<div> <label for ='1a'> 1a. Law enforcement uses this browser to hack the dark web </div>
+	<div> <label for ='1b'> 1b. Canadian privacy act </div>
+	<div> <label for ='1c'> 1c. Reflected, Persistent, or DOM bvased </div>
+	<div> <label for ='1d'> 1d. Phone based social engineering </div>
+	<div> <label for ='1f'> 1f. Tool to steal diamonds or hack the matrix </div>
+	 </div> <div class='vertical_line'></div>
+	 <div>
+		 <h1>Down:</h1>
+		 <div> <label for ='1'> 1. OWASP 2017 newbie (2 words) </div>
+		 <div> <label for ='4'> 4. authentication which requires more than a password </div>
+		 <div> <label for ='6'> 6. 27a6c4304ad5938eaf0efb6cc3e53dc </div>
+		 <div> <label for ='7'> 7. US healthcare data rules </div>
+		 <div> <label for ='9'> 9. Technique to protect distributed applications (2 words) </div>
+		 <div> <label for ='a'> a. California Privacy law </div>
+		 <div> <label for ='10'> 10. Tool used by dissidents and human rights activists to browse safely </div>
+		 <div> <label for ='11'> 11. On almost every PC. 600+ vulnerabilities and counting </div>
+		 <div> <label for ='13'> 13. Brazilian data privacy law </div>
+		 <div> <label for ='14'> 14. Unpatched software involved in  Equifax data breach </div>
+		 <div> <label for ='19'> 19. Popular CPU architecture and Assembly type </div>
+		 <div> <label for ='1e'> 1e. ____ is my hero </div>
+		  </div>
+</div>
+<div class="web" style="width: 90%">
+<br /><br />
+This challenge is also <a href="2018Crossword.pdf">available as a PDF</a>. However, the answers must be entered on the web page to generate the challenge flag.
+</div>
+<div>
+	<p><br />
+      Disclaimer: this challenge is not intended to convey or constitute cryptographic or software development advice. 
+	  Author is not responsible for presence or absence of mistakes and eyesores.
+      This disclaimer is subject to change without notice!
+    </p>
+</div>
+</body>
+</html>
